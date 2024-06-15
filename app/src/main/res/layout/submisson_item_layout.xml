@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="3dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="39dp"
+            android:src="@drawable/ic_pdf" />
+
+        <TextView
+            android:id="@+id/UserName"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center_vertical"
+            android:text="Madhwendra Shukla"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/ebookDownload"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="-100dp"
+            android:src="@drawable/ic_download" />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

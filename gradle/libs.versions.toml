@@ -1,0 +1,62 @@
+[versions]
+agp = "8.5.0"
+androidxJunit = "1.1.2"
+appcompatVersion = "1.2.0"
+circleimageview = "3.1.0"
+converterGson = "2.9.0"
+espressoCoreVersion = "3.3.0"
+firebaseBom = "26.1.0"
+firebaseDatabaseVersion = "20.0.6"
+firebaseStorageVersion = "20.0.2"
+jitsiMeetSdk = "3.9.0"
+junit = "4.13.2"
+junitJunit = "4.13.1"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+legacySupportV4 = "1.0.0"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+firebaseStorage = "21.0.0"
+materialVersion = "1.2.1"
+passcodeview = "0.1.2"
+picasso = "2.71828"
+playServicesTasks = "18.2.0"
+firebaseDatabase = "21.0.0"
+retrofit = "2.9.0"
+shimmer = "0.5.0"
+
+[libraries]
+appcompat-v120 = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+circleimageview = { module = "de.hdodenhof:circleimageview", version.ref = "circleimageview" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+espresso-core-v330 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-v2006 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-messaging = { module = "com.google.firebase:firebase-messaging" }
+firebase-storage-v2002 = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorageVersion" }
+jitsi-meet-sdk = { module = "org.jitsi.react:jitsi-meet-sdk", version.ref = "jitsiMeetSdk" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+junit-v112 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+junit-v4131 = { module = "junit:junit", version.ref = "junitJunit" }
+legacy-support-v4 = { module = "androidx.legacy:legacy-support-v4", version.ref = "legacySupportV4" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebaseStorage" }
+material-v121 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
+passcodeview = { module = "com.hanks:passcodeview", version.ref = "passcodeview" }
+picasso = { module = "com.squareup.picasso:picasso", version.ref = "picasso" }
+play-services-tasks = { group = "com.google.android.gms", name = "play-services-tasks", version.ref = "playServicesTasks" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+
